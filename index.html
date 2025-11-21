@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>The Underground | Fiber Growth Partner for Regional ISPs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="The Underground deploys elite door-to-door fiber sales teams and digital acquisition funnels to help regional ISPs turn fiber builds into profitable subscriber bases fast." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+          },
+          colors: {
+            underground: {
+              red: '#b91c1c',
+              dark: '#020617'
+            }
+          },
+          boxShadow: {
+            soft: '0 18px 45px rgba(15,23,42,0.65)',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased">
+  <!-- Sticky Navigation -->
+  <header class="sticky top-0 z-40 border-b border-slate-800 bg-slate-950/90 backdrop-blur">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:px-6">
+      <a href="#top" class="flex items-center gap-2">
+        <div class="flex h-8 w-8 items-center justify-center rounded-lg bg-underground-red text-xs font-semibold tracking-tight">
+          UG
+        </div>
+        <div class="flex flex-col leading-tight">
+          <span class="text-sm font-semibold tracking-tight text-slate-50">The Underground</span>
+          <span class="text-[11px] uppercase tracking-[0.24em] text-slate-400">Fiber Growth Partners</span>
+        </div>
+      </a>
+
+      <nav class="hidden items-center gap-8 text-xs font-medium uppercase tracking-[0.22em] text-slate-300 md:flex">
+        <a href="#how-it-works" class="hover:text-white transition-colors">How It Works</a>
+        <a href="#results" class="hover:text-white transition-colors">Results</a>
+        <a href="#why-underground" class="hover:text-white transition-colors">Why Underground</a>
+        <a href="#faq" class="hover:text-white transition-colors">FAQ</a>
+        <a href="#cta" class="rounded-full bg-underground-red px-5 py-2 text-[11px] font-semibold text-white shadow-soft hover:bg-red-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950 transition">
+          Book Strategy Call
+        </a>
+      </nav>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-button" class="inline-flex h-9 w-9 items-center justify-center rounded-md border border-slate-700 text-slate-100 hover:bg-slate-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 md:hidden" aria-label="Toggle navigation">
+        <svg id="mobile-menu-icon-open" class="h-4 w-4" viewBox="0 0 24 24" fill="none">
+          <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+        </svg>
+        <svg id="mobile-menu-icon-close" class="hidden h-4 w-4" viewBox="0 0 24 24" fill="none">
+          <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Nav -->
+    <div id="mobile-nav" class="hidden border-t border-slate-800 bg-slate-950 md:hidden">
+      <nav class="mx-auto flex max-w-6xl flex-col gap-1 px-4 py-3 text-xs font-medium uppercase tracking-[0.22em] text-slate-200">
+        <a href="#how-it-works" class="py-2">How It Works</a>
+        <a href="#results" class="py-2">Results</a>
+        <a href="#why-underground" class="py-2">Why Underground</a>
+        <a href="#faq" class="py-2">FAQ</a>
+        <a href="#cta" class="mt-2 inline-flex items-center justify-center rounded-full bg-underground-red px-5 py-2 text-[11px] font-semibold text-white shadow-soft hover:bg-red-600 transition">
+          Book Strategy Call
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden border-b border-slate-900">
+      <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(248,113,113,0.1),_transparent_55%),_radial-gradient(circle_at_bottom,_rgba(15,23,42,0.95),_transparent_60%)]"></div>
+      <div class="relative mx-auto flex max-w-6xl flex-col gap-12 px-4 py-16 md:flex-row md:items-center md:px-6 lg:py-20">
+        <!-- HERO HEADLINE -->
+        <div class="max-w-xl space-y-6">
+          <p class="text-xs font-semibold uppercase tracking-[0.28em] text-red-400">
+            Fiber Growth · Regional & Rural ISPs
+          </p>
+          <h1 class="text-3xl font-semibold tracking-tight text-slate-50 sm:text-4xl lg:text-[2.75rem]">
+            Turn Every Fiber Build Into a Fully Booked Service Area — Not a Half-Empty Map.
+          </h1>
+          <p class="text-sm leading-relaxed text-slate-300">
+            The Underground designs and runs elite door-to-door sales teams plus digital acquisition funnels so your regional ISP
+            converts homes passed into paying subscribers quickly, predictably, and with full-funnel visibility.
+          </p>
+
+          <ul class="space-y-2 text-sm text-slate-200">
+            <li class="flex items-start gap-2">
+              <span class="mt-1 inline-flex h-4 w-4 items-center justify-center rounded-full bg-red-600 text-[10px]">✓</span>
+              <span>Deploy dedicated fiber teams that live and breathe your markets, not generic canvassers.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="mt-1 inline-flex h-4 w-4 items-center justify-center rounded-full bg-red-600 text-[10px]">✓</span>
+              <span>Align paid media, SMS, and field reps so installs are booked before crews leave the neighborhood.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <span class="mt-1 inline-flex h-4 w-4 items-center justify-center rounded-full bg-red-600 text-[10px]">✓</span>
+              <span>See weekly KPIs from ad click to install so you know exactly what your new customers cost.</span>
+            </li>
+          </ul>
+
+          <div class="flex flex-col gap-3 pt-2 sm:flex-row sm:items-center">
+            <a href="https://calendly.com/lucasjburntham/30min" target="_blank" rel="noopener" class="inline-flex items-center justify-center rounded-full bg-underground-red px-6 py-3 text-sm font-semibold text-white shadow-soft hover:bg-red-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950 transition">
+              Book a 30-Minute Strategy Call
+            </a>
+            <a href="#" class="inline-flex items-center justify-center rounded-full border border-slate-700 px-5 py-2.5 text-xs font-semibold uppercase tracking-[0.22em] text-slate-200 hover:border-slate-400 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950 transition">
+              Download Sample Market Launch Plan
+            </a>
+          </div>
+
+          <p class="text-[11px] text-slate-400">
+            No spam pitches. We’ll review your current footprint, build status, and subscriber targets, then map how a combined
+            field + digital program could support your installs.
+          </p>
+        </div>
+
+        <!-- Hero Metrics Card -->
+        <div class="md:flex-1">
+          <div class="rounded-3xl border border-slate-800 bg-slate-900/70 p-5 shadow-soft">
+            <div class="flex items-center justify-between">
+              <p class="text-xs font-semibold uppercase tracking-[0.22em] text-slate-400">Sample Fiber Market Dashboard</p>
+              <span class="rounded-full bg-slate-800 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.22em] text-slate-300">Live Campaign</span>
+            </div>
+
+            <div class="mt-4 grid gap-3 sm:grid-cols-3">
+              <div class="rounded-2xl bg-slate-950/80 p-3">
+                <p class="text-[10px] uppercase tracking-[0.22em] text-slate-500">Installs / Week</p>
+                <p class="mt-1 text-2xl font-semibold text-slate-50">164</p>
+                <p class="mt-1 text-[11px] text-emerald-400">+37% vs. pre-launch</p>
+              </div>
+              <div class="rounded-2xl bg-slate-950/80 p-3">
+                <p class="text-[10px] uppercase tracking-[0.22em] text-slate-500">Door Show Rate</p>
+                <p class="mt-1 text-2xl font-semibold text-slate-50">74%</p>
+                <p class="mt-1 text-[11px] text-emerald-400">Booked from digital leads & knocks</p>
+              </div>
+              <div class="rounded-2xl bg-slate-950/80 p-3">
+                <p class="text-[10px] uppercase tracking-[0.22em] text-slate-500">Close Rate</p>
+                <p class="mt-1 text-2xl font-semibold text-slate-50">41%</p>
+                <p class="mt-1 text-[11px] text-slate-400">Qualified households in active zones</p>
+              </div>
+            </div>
+
+            <div class="mt-4 grid gap-3 md:grid-cols-2">
+              <div class="rounded-2xl border border-dashed border-slate-700 bg-slate-950/60 p-3">
+                <p class="text-[11px] font-medium text-slate-200">Territory Snapshot</p>
+                <p class="mt-1 text-[11px] text-slate-400">
+                  9,800 homes passed · 3 priority zones · 4 dedicated teams · blended CAC tracked weekly.
+                </p>
+              </div>
+              <div class="rounded-2xl border border-dashed border-slate-700 bg-slate-950/60 p-3">
+                <p class="text-[11px] font-medium text-slate-200">Ops Notes</p>
+                <p class="mt-1 text-[11px] text-slate-400">
+                  Door teams seeded with digital warm leads; SMS reminders tied to crew schedules.
+                </p>
+              </div>
+            </div>
+
+            <p class="mt-4 text-[10px] text-slate-500">
+              Numbers shown are illustrative only and not a guarantee of future performance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trusted By / Market Fit Band -->
+    <section class="border-b border-slate-900 bg-slate-950">
+      <div class="mx-auto flex max-w-6xl flex-col gap-6 px-4 py-8 md:flex-row md:items-center md:justify-between md:px-6">
+        <p class="max-w-xl text-xs font-medium uppercase tracking-[0.24em] text-slate-300">
+          Perfect for regional ISPs, rural cooperatives, municipal fiber, and local builders who need real installs in new and existing builds.
+        </p>
+        <div class="grid flex-1 grid-cols-2 gap-3 sm:grid-cols-4">
+          <div class="flex items-center justify-center rounded-xl border border-slate-800 bg-slate-900/70 px-3 py-2 text-[11px] font-semibold tracking-wide text-slate-300">
+            PrairieLink Fiber
+          </div>
+          <div class="flex items-center justify-center rounded-xl border border-slate-800 bg-slate-900/70 px-3 py-2 text-[11px] font-semibold tracking-wide text-slate-300">
+            Heartland Co-op Net
+          </div>
+          <div class="flex items-center justify-center rounded-xl border border-slate-800 bg-slate-900/70 px-3 py-2 text-[11px] font-semibold tracking-wide text-slate-300">
+            Valley City Fiber
+          </div>
+          <div class="flex items-center justify-center rounded-xl border border-slate-800 bg-slate-900/70 px-3 py-2 text-[11px] font-semibold tracking-wide text-slate-300">
+            Lakeside Broadband
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problem / Agitation Section -->
+    <section class="border-b border-slate-900 bg-slate-950">
+      <div class="mx-auto max-w-6xl px-4 py-16 md:px-6">
+        <div class="grid gap-10 md:grid-cols-[1.1fr,1fr] md:items-start">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-red-400">
+              The Real Problem
+            </p>
+            <h2 class="mt-2 text-2xl font-semibold tracking-tight text-slate-50 sm:text-3xl">
+              Fiber in the ground doesn’t generate revenue. Installs do.
+            </h2>
+            <p class="mt-4 text-sm leading-relaxed text-slate-300">
+              Most regional ISPs are excellent at building networks, not at orchestrating high-intent demand and field sales. The result is
+              half-lit service areas, slow payback on capital, and boards asking why take-rates are stuck.
+            </p>
+          </div>
+          <div class="space-y-4 text-sm text-slate-200">
+            <div class="rounded-2xl border border-slate-800 bg-slate-900/70 p-4">
+              <p class="text-xs font-semibold uppercase tracking-[0.22em] text-slate-400">Underperforming internal sales</p>
+              <p class="mt-2 text-sm text-slate-300">
+                Inside teams and call centers rarely have the bandwidth or tooling to saturate neighborhoods quickly. Door-to-door is an
+                afterthought, not a discipline.
+              </p>
+            </div>
+            <div class="rounded-2xl border border-slate-800 bg-slate-900/70 p-4">
+              <p class="text-xs font-semibold uppercase tracking-[0.22em] text-slate-400">Low digital lead quality</p>
+              <p class="mt-2 text-sm text-slate-300">
+                Generic “fiber in your area” campaigns flood inboxes with unqualified leads that never turn into completed installs or
+                churn out on day 30.
+              </p>
+            </div>
+            <div class="rounded-2xl border border-slate-800 bg-slate-900/70 p-4">
+              <p class="text-xs font-semibold uppercase tracking-[0.22em] text-slate-400">Missed build windows</p>
+              <p class="mt-2 text-sm text-slate-300">
+                Crews finish construction, marketing sends a few mailers, then everyone moves on. By the time demand ramps, your best window
+                for dense adoption is gone.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="border-b border-slate-900 bg-slate-950">
+      <div class="mx-auto max-w-6xl px-4 py-16 md:px-6">
+        <div class="mb-8 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-red-400">Process</p>
+            <h2 class="mt-2 text-2xl font-semibold tracking-tight text-slate-50 sm:text-3xl">
+              How our fiber growth engine works.
+            </h2>
+          </div>
+          <p class="max-w-md text-sm text-slate-300">
+            We plug into your current plans, not bulldoze them. The Underground gives you a dedicated field + digital unit that stands up
+            quickly and reports like a modern growth team.
+          </p>
+        </div>
+
+        <div class="grid gap-5 md:grid-cols-3">
+          <div class="flex flex-col rounded-2xl border border-slate-800 bg-slate-900/70 p-5">
+            <div class="mb-3 flex items-center justify-between">
+              <span class="flex h-7 w-7 items-center justify-center rounded-full bg-underground-red text-xs font-semibold">1</span>
+              <span class="text-[11px] uppercase tracking-[0.22em] text-slate-500">2–3 weeks</span>
+            </div>
+            <p class="text-sm font-semibold text-slate-50">Market deep dive &amp; territory design</p>
+            <p class="mt-2 text-sm text-slate-300">
+              We audit your footprint, build phases, and subscriber targets, then carve territories that match install capacity and ROI.
+            </p>
+            <ul class="mt-3 space-y-1.5 text-sm text-slate-300">
+              <li class="flex gap-2"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-red-500"></span>Homes passed, take-rate, and ARPU review</li>
+              <li class="flex gap-2"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-red-500"></span>Priority zones and “must-win” neighborhoods</li>
+              <li class="flex gap-2"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-red-500"></span>Capacity-aware routing for field teams</li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col rounded-2xl border border-slate-800 bg-slate-900/70 p-5">
+            <div class="mb-3 flex items-center justify-between">
+              <span class="flex h-7 w-7 items-center justify-center rounded-full bg-underground-red text-xs font-semibold">2</span>
+              <span class="text-[11px] uppercase tracking-[0.22em] text-slate-500">Go-live</span>
+            </div>
+            <p class="text-sm font-semibold text-slate-50">Launch elite door-to-door + digital funnel</p>
+            <p class="mt-2 text-sm text-slate-300">
+              We deploy trained fiber reps plus a local digital funnel that books and warms appointments for the field.
+            </p>
+            <ul class="mt-3 space-y-1.5 text-sm text-slate-300">
+              <li class="flex gap-2"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-red-500"></span>Fiber-specific scripting &amp; in-home education</li>
+              <li class="flex gap-2"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-red-500"></span>Hyperlocal ads and landing pages per market</li>
+              <li class="flex gap-2"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-red-500"></span>SMS / email automation synced to crew schedules</li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col rounded-2xl border border-slate-800 bg-slate-900/70 p-5">
+            <div class="mb-3 flex items-center justify-between">
+              <span class="flex h-7 w-7 items-center justify-center rounded-full bg-underground-red text-xs font-semibold">3</span>
+              <span class="text-[11px] uppercase tracking-[0.22em] text-slate-500">Ongoing</span>
+            </div>
+            <p class="text-sm font-semibold text-slate-50">Weekly KPI reviews &amp; optimization</p>
+            <p class="mt-2 text-sm text-slate-300">
+              We meet with your leadership on a set cadence, tuning territories, offers, and media to your real numbers.
+            </p>
+            <ul class="mt-3 space-y-1.5 text-sm text-slate-300">
+              <li class="flex gap-2"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-red-500"></span>Installed subs vs. target by zone</li>
+              <li class="flex gap-2"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-red-500"></span>Blended CAC vs. alternative channels</li>
+              <li class="flex gap-2"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-red-500"></span>Offer testing &amp; territory reallocations</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Door-to-Door + Digital Flywheel Section -->
+    <section class="border-b border-slate-900 bg-slate-950">
+      <div class="mx-auto max-w-6xl px-4 py-16 md:px-6">
+        <div class="mb-8 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-red-400">Field + Digital</p>
+            <h2 class="mt-2 text-2xl font-semibold tracking-tight text-slate-50 sm:text-3xl">
+              Door teams and digital funnels working as one system.
+            </h2>
+          </div>
+          <p class="max-w-md text-sm text-slate-300">
+            Instead of buying random leads or sending reps out blind, we build a true flywheel where every door knock and ad impression
+            improves the other.
+          </p>
+        </div>
+
+        <div class="grid gap-8 md:grid-cols-2">
+          <div class="space-y-4">
+            <h3 class="text-sm font-semibold uppercase tracking-[0.24em] text-slate-200">Door-to-Door Teams</h3>
+            <ul class="space-y-3 text-sm text-slate-300">
+              <li class="flex gap-2">
+                <span class="mt-1 h-1.5 w-1.5 rounded-full bg-red-500"></span>
+                <span>In-home education that demystifies fiber, pricing, and install timelines for households.</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="mt-1 h-1.5 w-1.5 rounded-full bg-red-500"></span>
+                <span>Neighborhood saturation with structured routing, not random walking.</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="mt-1 h-1.5 w-1.5 rounded-full bg-red-500"></span>
+                <span>On-the-spot closes and install scheduling aligned with your OSS/BSS.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="space-y-4">
+            <h3 class="text-sm font-semibold uppercase tracking-[0.24em] text-slate-200">Digital Funnel</h3>
+            <ul class="space-y-3 text-sm text-slate-300">
+              <li class="flex gap-2">
+                <span class="mt-1 h-1.5 w-1.5 rounded-full bg-red-500"></span>
+                <span>Hyperlocal ads that only target addresses you can actually serve today.</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="mt-1 h-1.5 w-1.5 rounded-full bg-red-500"></span>
+                <span>Retargeting and nurture flows that warm up interest before the door knock.</span>
+              </li>
+              <li class="flex gap-2">
+                <span class="mt-1 h-1.5 w-1.5 rounded-full bg-red-500"></span>
+                <span>Appointment forms that sync with field schedules and confirm via SMS.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Flywheel Graphic -->
+        <div class="mt-10">
+          <div class="mx-auto flex max-w-3xl flex-col items-stretch gap-4 text-[11px] text-slate-200 sm:flex-row sm:items-center">
+            <div class="flex-1 rounded-2xl border border-slate-800 bg-slate-900/70 px-4 py-3 text-center">
+              <p class="font-semibold uppercase tracking-[0.22em] text-slate-300">Digital Interest</p>
+              <p class="mt-1 text-slate-400">Ads, landing pages &amp; SMS capture high-intent prospects by address.</p>
+            </div>
+            <div class="flex items-center justify-center text-slate-500">
+              <span class="text-xl sm:text-2xl">➝</span>
+            </div>
+            <div class="flex-1 rounded-2xl border border-slate-800 bg-slate-900/70 px-4 py-3 text-center">
+              <p class="font-semibold uppercase tracking-[0.22em] text-slate-300">Field Conversion</p>
+              <p class="mt-1 text-slate-400">Reps prioritize warm doors &amp; neighbors around recent installs.</p>
+            </div>
+            <div class="flex items-center justify-center text-slate-500">
+              <span class="text-xl sm:text-2xl">➝</span>
+            </div>
+            <div class="flex-1 rounded-2xl border border-slate-800 bg-slate-900/70 px-4 py-3 text-center">
+              <p class="font-semibold uppercase tracking-[0.22em] text-slate-300">Data Feedback</p>
+              <p class="mt-1 text-slate-400">Install data feeds back into targeting, offers &amp; territory design.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results / Metrics Section -->
+    <section id="results" class="border-b border-slate-900 bg-slate-950">
+      <div class="mx-auto max-w-6xl px-4 py-16 md:px-6">
+        <div class="mb-8 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-red-400">Outcomes</p>
+            <h2 class="mt-2 text-2xl font-semibold tracking-tight text-slate-50 sm:text-3xl">
+              What ISPs get with Underground.
+            </h2>
+          </div>
+          <p class="max-w-md text-sm text-slate-300">
+            We focus on one thing: more profitable households on your network. Below are representative numbers from regional and rural
+            fiber campaigns we’ve run.
+          </p>
+        </div>
+
+        <div class="grid gap-5 md:grid-cols-4">
+          <div class="rounded-2xl border border-slate-800 bg-slate-900/70 p-4">
+            <p class="text-[11px] uppercase tracking-[0.22em] text-slate-400">Show rate lift</p>
+            <p class="mt-2 text-3xl font-semibold text-slate-50">+32%</p>
+            <p class="mt-2 text-sm text-slate-300">
+              vs. prior campaigns relying solely on call center outbound.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-slate-800 bg-slate-900/70 p-4">
+            <p class="text-[11px] uppercase tracking-[0.22em] text-slate-400">Installs / rep / day</p>
+            <p class="mt-2 text-3xl font-semibold text-slate-50">3.4</p>
+            <p class="mt-2 text-sm text-slate-300">
+              Average across mature territories with optimized routing.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-slate-800 bg-slate-900/70 p-4">
+            <p class="text-[11px] uppercase tracking-[0.22em] text-slate-400">CAC vs. call center</p>
+            <p class="mt-2 text-3xl font-semibold text-slate-50">-38%</p>
+            <p class="mt-2 text-sm text-slate-300">
+              Blended acquisition cost when combining field + digital.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-slate-800 bg-slate-900/70 p-4">
+            <p class="text-[11px] uppercase tracking-[0.22em] text-slate-400">Payback window</p>
+            <p class="mt-2 text-3xl font-semibold text-slate-50">60–90d</p>
+            <p class="mt-2 text-sm text-slate-300">
+              Typical range to recover acquisition cost on standard ARPU.
+            </p>
+          </div>
+        </div>
+
+        <p class="mt-5 text-[11px] text-slate-500">
+          Sample results from past regional campaigns. Your results may vary based on market, offer, competition, and execution.
+        </p>
+      </div>
+    </section>
+
+    <!-- Mini Case Study / Story Section -->
+    <section class="border-b border-slate-900 bg-slate-950">
+      <div class="mx-auto max-w-6xl px-4 py-16 md:px-6">
+        <div class="mb-6">
+          <p class="text-xs font-semibold uppercase tracking-[0.28em] text-red-400">Case Snapshot</p>
+          <h2 class="mt-2 text-2xl font-semibold tracking-tight text-slate-50 sm:text-3xl">
+            Sample fiber market launch.
+          </h2>
+        </div>
+
+        <div class="grid gap-8 md:grid-cols-[0.9fr,1.1fr] md:items-start">
+          <div class="space-y-4 rounded-2xl border border-slate-800 bg-slate-900/70 p-5">
+            <h3 class="text-sm font-semibold text-slate-100">Market at a glance</h3>
+            <dl class="space-y-3 text-sm text-slate-300">
+              <div class="flex items-center justify-between gap-4">
+                <dt class="text-slate-400">Region type</dt>
+                <dd class="font-medium text-slate-100">Upper Midwest rural co-op</dd>
+              </div>
+              <div class="flex items-center justify-between gap-4">
+                <dt class="text-slate-400">Homes passed (phase 1)</dt>
+                <dd class="font-medium text-slate-100">12,400</dd>
+              </div>
+              <div class="flex items-center justify-between gap-4">
+                <dt class="text-slate-400">Target take-rate</dt>
+                <dd class="font-medium text-slate-100">40% in 18 months</dd>
+              </div>
+              <div class="flex items-center justify-between gap-4">
+                <dt class="text-slate-400">Channel mix</dt>
+                <dd class="font-medium text-slate-100">Door-to-door + paid social + SMS</dd>
+              </div>
+              <div class="flex items-center justify-between gap-4">
+                <dt class="text-slate-400">Result</dt>
+                <dd class="font-medium text-emerald-400">38% take-rate in 9 months</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="space-y-3 text-sm text-slate-300">
+            <p>
+              A member-owned electric co-op had invested heavily in fiber construction across three counties. After a year of light-touch
+              marketing, only ~18% of homes passed had converted, and board pressure was increasing.
+            </p>
+            <p>
+              The Underground designed territories aligned with existing construction phases, stood up a dedicated field team, and launched
+              a hyperlocal digital funnel that pre-qualified and scheduled households into install windows.
+            </p>
+            <p>
+              Within 60 days, installs per crew more than doubled. Weekly KPI reviews allowed the co-op and Underground to reallocate reps
+              to pockets of high demand, test pricing offers, and tighten targeting around most profitable addresses.
+            </p>
+            <p>
+              After nine months, the co-op hit a 38% take-rate in priority zones with a clear path to 45%+. Capital payback shortened by
+              several quarters compared to the original business case.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Underground Section -->
+    <section id="why-underground" class="border-b border-slate-900 bg-slate-950">
+      <div class="mx-auto max-w-6xl px-4 py-16 md:px-6">
+        <div class="mb-8 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+          <div>
+            <p class="text-xs font-semibold uppercase tracking-[0.28em] text-red-400">Why Underground</p>
+            <h2 class="mt-2 text-2xl font-semibold tracking-tight text-slate-50 sm:text-3xl">
+              Built for fiber, not generic door-to-door.
+            </h2>
+          </div>
+          <p class="max-w-md text-sm text-slate-300">
+            You don’t need another agency deck or a seasonal door-knocking team. You need operators who understand fiber economics and can
+            own a market with you.
+          </p>
+        </div>
+
+        <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+          <div class="rounded-2xl border border-slate-800 bg-slate-900/70 p-4">
+            <p class="text-xs font-semibold uppercase tracking-[0.24em] text-slate-400">Door-to-door specialists</p>
+            <p class="mt-2 text-sm text-slate-200">
+              We recruit, train, and manage reps specifically for fiber. No coupon books, no random product mix.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-slate-800 bg-slate-900/70 p-4">
+            <p class="text-xs font-semibold uppercase tracking-[0.24em] text-slate-400">Fiber-specific training</p>
+            <p class="mt-2 text-sm text-slate-200">
+              Scripts and objection handling built around speed tiers, install logistics, and competitor positioning.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-slate-800 bg-slate-900/70 p-4">
+            <p class="text-xs font-semibold uppercase tracking-[0.24em] text-slate-400">Full-funnel reporting</p>
+            <p class="mt-2 text-sm text-slate-200">
+              From ad click to completed install, you’ll see the numbers you need: CAC, show rate, and LTV by territory.
+            </p>
+          </div>
+          <div class="rounded-2xl border border-slate-800 bg-slate-900/70 p-4">
+            <p class="text-xs font-semibold uppercase tracking-[0.24em] text-slate-400">Fast launch</p>
+            <p class="mt-2 text-sm text-slate-200">
+              We can move from initial deep dive to live teams in weeks, so you don’t miss critical BEAD or build windows.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="border-b border-slate-900 bg-slate-950">
+      <div class="mx-auto max-w-6xl px-4 py-16 md:px-6">
+        <!-- FAQ SECTION -->
+        <div class="mb-6 max-w-2xl">
+          <p class="text-xs font-semibold uppercase tracking-[0.28em] text-red-400">FAQ</p>
+          <h2 class="mt-2 text-2xl font-semibold tracking-tight text-slate-50 sm:text-3xl">
+            Questions regional ISPs usually ask us.
+          </h2>
+        </div>
+
+        <div class="space-y-3 rounded-2xl border border-slate-800 bg-slate-900/70 p-5 text-sm text-slate-200">
+          <!-- Single FAQ Item -->
+          <div class="border-b border-slate-800 pb-3 last:border-b-0 last:pb-0">
+            <button type="button" data-faq-button class="flex w-full items-center justify-between gap-4 text-left">
+              <span class="font-medium text-slate-100">How do you integrate with our existing ordering / OSS / BSS?</span>
+              <span class="faq-icon text-xs text-slate-400">+</span>
+            </button>
+            <div class="mt-2 hidden text-sm text-slate-300">
+              We start by mapping your current order flows, install scheduling, and provisioning. Our teams operate inside your existing
+              tools wherever possible, or we use lightweight middleware and clear SOPs so every sale is cleanly handed off to your systems
+              without manual chaos.
+            </div>
+          </div>
+
+          <div class="border-b border-slate-800 pb-3 last:border-b-0 last:pb-0">
+            <button type="button" data-faq-button class="flex w-full items-center justify-between gap-4 text-left">
+              <span class="font-medium text-slate-100">How do you protect our brand in the field?</span>
+              <span class="faq-icon text-xs text-slate-400">+</span>
+            </button>
+            <div class="mt-2 hidden text-sm text-slate-300">
+              Every rep is trained on your brand standards, product specifics, and compliance requirements before they ever knock a door.
+              We use call reviews, ride-alongs, and performance incentives tied to quality metrics, not just volume, and we remove anyone
+              who doesn’t represent you well.
+            </div>
+          </div>
+
+          <div class="border-b border-slate-800 pb-3 last:border-b-0 last:pb-0">
+            <button type="button" data-faq-button class="flex w-full items-center justify-between gap-4 text-left">
+              <span class="font-medium text-slate-100">Can you launch quickly for a new BEAD-funded build?</span>
+              <span class="faq-icon text-xs text-slate-400">+</span>
+            </button>
+            <div class="mt-2 hidden text-sm text-slate-300">
+              Yes. Because we focus on regional and rural builds, we’re used to tight timelines. We can begin planning while construction
+              is underway, then schedule launches to align with when addresses actually go live, so you hit the adoption milestones in your
+              grant commitments.
+            </div>
+          </div>
+
+          <div class="border-b border-slate-800 pb-3 last:border-b-0 last:pb-0">
+            <button type="button" data-faq-button class="flex w-full items-center justify-between gap-4 text-left">
+              <span class="font-medium text-slate-100">What geography do you cover?</span>
+              <span class="faq-icon text-xs text-slate-400">+</span>
+            </button>
+            <div class="mt-2 hidden text-sm text-slate-300">
+              We work primarily across North America in regional and rural markets. If your build is outside a major metro and you’re
+              serious about installs, there’s a strong chance we can support or help you structure the right approach.
+            </div>
+          </div>
+
+          <div class="border-b border-slate-800 pb-3 last:border-b-0 last:pb-0">
+            <button type="button" data-faq-button class="flex w-full items-center justify-between gap-4 text-left">
+              <span class="font-medium text-slate-100">Do you replace our marketing agency or sales team?</span>
+              <span class="faq-icon text-xs text-slate-400">+</span>
+            </button>
+            <div class="mt-2 hidden text-sm text-slate-300">
+              Not necessarily. Some partners plug us in as their primary growth engine; others use us as the focused unit for specific
+              builds or underperforming areas. We’re comfortable collaborating with your existing agency or internal sales leadership.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section id="cta" class="border-b border-slate-900 bg-gradient-to-b from-slate-950 via-slate-950 to-black">
+      <div class="mx-auto max-w-6xl px-4 py-16 md:px-6">
+        <div class="mx-auto max-w-2xl rounded-3xl border border-underground-red/60 bg-slate-950/90 p-8 text-center shadow-soft">
+          <p class="text-xs font-semibold uppercase tracking-[0.28em] text-red-400">
+            Next Step
+          </p>
+          <h2 class="mt-3 text-2xl font-semibold tracking-tight text-slate-50 sm:text-3xl">
+            Let’s turn your fiber footprint into profitable households.
+          </h2>
+          <p class="mt-3 text-sm text-slate-300">
+            Bring your maps, build phases, and subscriber goals. We’ll bring a concrete plan for how a combined door-to-door and digital
+            engine could help you hit them faster and with more clarity on ROI.
+          </p>
+
+          <div class="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
+            <a href="https://calendly.com/lucasjburntham/30min" target="_blank" rel="noopener" class="inline-flex w-full items-center justify-center rounded-full bg-underground-red px-6 py-3 text-sm font-semibold text-white shadow-soft hover:bg-red-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950 transition sm:w-auto">
+              Book Strategy Call
+            </a>
+            <a href="mailto:info@theundergroundfiber.com" class="text-xs font-medium text-slate-300 underline-offset-4 hover:text-slate-100 hover:underline">
+              Prefer email? Contact us at info@theundergroundfiber.com
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-black">
+    <div class="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-6 text-[11px] text-slate-500 md:flex-row md:items-center md:justify-between md:px-6">
+      <p>© <span id="year"></span> The Underground. All rights reserved.</p>
+      <p>Focused on ethical, brand-safe subscriber growth for regional and rural ISPs.</p>
+    </div>
+  </footer>
+
+  <!-- Minimal JS for mobile nav, FAQ, and year -->
+  <script>
+    // Mobile nav toggle
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileNav = document.getElementById('mobile-nav');
+    const iconOpen = document.getElementById('mobile-menu-icon-open');
+    const iconClose = document.getElementById('mobile-menu-icon-close');
+
+    if (mobileMenuButton && mobileNav) {
+      mobileMenuButton.addEventListener('click', () => {
+        mobileNav.classList.toggle('hidden');
+        iconOpen.classList.toggle('hidden');
+        iconClose.classList.toggle('hidden');
+      });
+    }
+
+    // FAQ accordion
+    const faqButtons = document.querySelectorAll('[data-faq-button]');
+    faqButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const content = button.nextElementSibling;
+        const icon = button.querySelector('.faq-icon');
+        if (!content) return;
+
+        const isOpen = !content.classList.contains('hidden');
+        // Close all others
+        faqButtons.forEach((btn) => {
+          const otherContent = btn.nextElementSibling;
+          const otherIcon = btn.querySelector('.faq-icon');
+          if (otherContent && otherContent !== content) {
+            otherContent.classList.add('hidden');
+          }
+          if (otherIcon && otherIcon !== icon) {
+            otherIcon.textContent = '+';
+          }
+        });
+
+        content.classList.toggle('hidden', isOpen);
+        if (icon) {
+          icon.textContent = isOpen ? '+' : '−';
+        }
+      });
+    });
+
+    // Footer year
+    const yearSpan = document.getElementById('year');
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+  </script>
+</body>
+</html>
